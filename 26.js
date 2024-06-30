@@ -31,6 +31,6 @@ const arr = [];
 // console.log(typeof fruits);
 
 // Differentiating solution:
-// Array.isArray()
+//  Array.isArray()
 // console.log(Array.isArray(arr));
 // console.log(Array.isArray(obj));
