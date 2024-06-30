@@ -13,6 +13,7 @@ console.log(mixedTypes);
 mixedTypes[3] = "hi"
 console.log(mixedTypes);
 
+
 // array indexing
 // console.log(fruits[0]);
 
@@ -30,5 +31,6 @@ const arr = [];
 // console.log(typeof fruits);
 
 // Differentiating solution:
+// Array.isArray()
 // console.log(Array.isArray(arr));
 // console.log(Array.isArray(obj));
