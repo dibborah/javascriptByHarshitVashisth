@@ -25,8 +25,15 @@ const users = [
     {firstName: 'rahul', age: 26},
 ];
 
-const userName = users.map(user => user.firstName);
-console.log(userName);
+// const userName = users.map(user => user.firstName);
+// console.log(userName);
+
+// returning null
+// const userName = users.map(user => {
+//     return null;
+// });
+
+// console.log(userName);
 
 
 
