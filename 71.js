@@ -51,8 +51,11 @@
 // tempArray[1].dance();
 
 function personInfo() {
+    // console.log(this.firstName);
     console.log(`person name is ${this.firstName} and person age is ${this.age}`);
 }
+
+// personInfo();
 
 const person1 = {
     firstName: 'harsh',
@@ -72,10 +75,6 @@ const person3 = {
     about: personInfo,
 }
 
-person1.about();
-person2.about();
-person3.about();
-
-// const user = {};
-
-// user.about();
+// person1.about();
+// person2.about();
+// person3.about();
