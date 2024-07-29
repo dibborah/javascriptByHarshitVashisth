@@ -1,3 +1,5 @@
+// storing methods in different objects
+
 const userMethods = {
     // about: function() {
     //     return `The age of ${this.firstName} is ${this.age}`;
