@@ -25,12 +25,12 @@ function createUser(firstName, lastName, email, age, address) {
     user.email = email;
     user.age = age;
     user.address = address;
-    // user.about = userMethods.about;
-    // user.is18 = userMethods.is18;
-    // user.sing = userMethods.sing;
     return user;
 }
 
 const user1 = createUser('harshit', 'vashishtha', 'hv@email.com', 21, 'delhi');
 console.log(user1);
+console.log(user1.__proto__);
 console.log(user1.sing());
+console.log(user1.about());
+console.log(user1.is18());
