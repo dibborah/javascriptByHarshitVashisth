@@ -1,6 +1,11 @@
+// what is prototype
 function hello() {
     console.log('hello world');
 };
+
+// When use this or fc prototype inside or related to a fc than 
+// the fc becomes a constructor fc
+// And constructor fc can be converted to a class declaration
 
 // const hello = {
 //     key1: 'value1',
