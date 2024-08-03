@@ -36,6 +36,9 @@ console.log(newAnimal1);
 console.log(newAnimal1.run())
 console.log(newAnimal1.eat());
 
+const testAnimal1 = new Animal('sheru', 9);
+console.log(testAnimal1.eat());
+
 
 // Same concept of __proto__ chaining in used when same method exits in the base class and the inherited class
 // const obj1 = {
