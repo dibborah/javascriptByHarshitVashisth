@@ -34,8 +34,8 @@ const animal1 = new Animal('lion', 5);
 
 class Dog extends Animal{
     constructor(name, age, habit){
-        super(name, age);
         console.log('constructor is called');
+        super(name, age);
         this.habit = 'sleeping'       
     }
     skill() {
